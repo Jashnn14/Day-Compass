@@ -1,0 +1,23 @@
+{
+  "name": "day-compass-simple-html",
+  "version": "0.1.0",
+  "description": "A simple task planner using HTML, Tailwind CSS, and Vanilla JavaScript",
+  "main": "public/index.html",
+  "scripts": {
+    "dev": "tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "build": "tailwindcss -i ./src/style.css -o ./public/style.css --minify"
+  },
+  "keywords": [
+    "task",
+    "planner",
+    "html",
+    "css",
+    "javascript",
+    "tailwind"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
